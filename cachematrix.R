@@ -38,13 +38,12 @@ makeVector <- function(x = matrix())
         }
         
         ## list is the returned value after setting calling all the four functions above.
-        list
-        (
-                set = set,
-                get = get,
-                setmean = setmean,
-                getmean = getmean
-        )
+        list(
+                        set=set,
+                        get=get,
+                        setmean=setmean,
+                        getmean=getmean
+                )
 }
 
 ## this function "cachemean" returns the mean of the input vector "x"
